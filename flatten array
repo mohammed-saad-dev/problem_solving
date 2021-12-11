@@ -1,7 +1,4 @@
 let myArray = ["E", "l", "z", ["e", "r"], "o"];
  
 
-console.log( myArray.join("").split("").filter(el => !el.startsWith(",")).join("")) let myArray = ["E", "l", "z", ["e", "r"], "o"];
- 
-
-console.log( myArray.join("").split("").filter(el => !el.startsWith(",")).join("")) 
+console.log( myArray.join("").split("").filter(el => !el.startsWith(",")).join(""))  
