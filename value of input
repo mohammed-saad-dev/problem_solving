@@ -1,0 +1,14 @@
+
+let currency = document.querySelector("#o");
+let div = document.querySelector(".result");
+
+let wow =currency.onkeyup = () => {
+    let value =Number( currency.value);
+    div.textContent = `{${value}} USD Dollar = {${value * 15.6}} Egyptian Pound`
+}
+
+HTML
+  <form action="">
+    <input type="number" name="dollar" id="o"  placeholder="USD Dollar" />
+    <div class="result">{0} USD Dollar = {0} Egyptian Pound</div>
+  </form>
