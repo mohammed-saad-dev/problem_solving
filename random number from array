@@ -1,0 +1,6 @@
+
+const randomNumber =Math.floor(random()) ;
+console.log(randomNumber)
+function random() {
+    return Math.random() * colors.length
+}
