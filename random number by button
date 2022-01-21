@@ -1,0 +1,5 @@
+
+randomeBtn.addEventListener('click', function () {
+   /* random number for this element*/ = Math.floor(Math.random() * MainArray.length);
+   
+})
